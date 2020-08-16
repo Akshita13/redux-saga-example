@@ -1,3 +1,6 @@
+
+import * as types from "../actions/api_1";
+
 const initialState = {
   data: null,
   dataFetched: false,
@@ -6,6 +9,7 @@ const initialState = {
 };
 
 export default (state = initialState, action) => {
+  debugger
   switch (action.type) {
     case "FETCHING_API_1":
       return {

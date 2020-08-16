@@ -1,4 +1,5 @@
 export const api_1= (param = "success") => {
+  debugger
     return new Promise((resolve, reject)=> {
         setTimeout(()=>{
             if (param === "success") return resolve("success api 1");

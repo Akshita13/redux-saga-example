@@ -5,5 +5,6 @@ import api_1 from "./api_1";
 // notice how we now only export the rootSaga
 // single entry point to start all Sagas at once
 export default function* rootSaga() {
+  debugger
   yield all([api_1()]);
 }
